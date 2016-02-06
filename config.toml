@@ -5,7 +5,7 @@ theme = "hugo-strata-theme"
 
 [params]
 	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
+	# information about you and your website.
 	name = "Ryota.Murakami"
 	description = "My Portfolio"
 
@@ -42,58 +42,58 @@ theme = "hugo-strata-theme"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://www3.nhk.or.jp/news/"
+			image = "favsite/nhk-news.png"
+			title = "NHKニュース"
+			description = ""
 
-		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://togetter.com/recentpopular"
+			image = "favsite/togetter.png"
+			title = "Togetter"
+			description = "" # "言わずと知れたTwitterまとめサイト。タイムラインで盛り上がったものは大体今週のまとめタブを見れば分かる。"
 
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://b.hatena.ne.jp"
+			image = "favsite/hatena-bookmark.png"
+			title = "はてなブックマーク"
+			 description = "" # "トップ画面と、テクノロジーの技術ブログ/エンジニアカテゴリを見る事が多い。<br>時事ネタのソースと付随エントリが上がっている事が多いが、<br>はてなブックマーク、なてな匿名ダイアリーといったはてな製サービスのエントリを批評する場としての性格も強い。"
 
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://b.hatena.ne.jp/topiclist"
+			image = "favsite/hatena-topic.png"
+			title = "はてなトピック"
+			description = ""
 
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://tubuyaki-bigdata.com/"
+			image = "favsite/tsubuyaki-bidata-matome.png"
+			title = "つぶやきビッグデータまとめ"
+			description = ""
 
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		[[params.portfolio.favsite]]
+			url = "http://www.walkerplus.com/"
+			image = "favsite/walkerplus.png"
+			title = "walkerplus"
+			description = ""
 
 
 	[params.contact]
 		title = "メールフォーム"
-		content = "仕事の依頼は無いだろうけど、メールフォームを置いておきます。何かありましたらお気軽にご連絡ください。"
+		content = "メールフォームを置いておきます。何かありましたらお気軽にご連絡ください。"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
 		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
+		#
+		# What you need to do for the setup?
+		#
+		# - set your email address under 'email' below
+		# - upload the generated site to your server
+		# - send a dummy email yourself to confirm your account
+		# - click the confirm link in the email from www.formspree.io
+		# - you're done. Happy mailing!
 		email = "dojce1048@gmail.com"
 
 		[params.contact.form]
