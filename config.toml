@@ -33,7 +33,7 @@ theme = "hugo-strata-theme"
 
 
 	[params.about]
-		title = ""
+		title = "Write Code Every day"
 		content = "都内でwebエンジニアをしています。<br>情報キュレーション系サービスを個人開発する事が目標です。"
 
 
