@@ -1,0 +1,13 @@
+{{ "<!-- portfolio -->" | safeHTML }}
+<section id="two">
+	{{ with .Site.Params.portfolio.title }}<h2>{{ . }}</h2>{{ end }}
+	<div class="row">
+		{{ range .Site.Params.portfolio.favsite }}
+		<article class="6u 12u$(xsmall) work-item">
+			<a target="_new" href="{{ .url }}" class="image fit thumb"><img src="{{ .Site.BaseURL }}images/{{ .image }}" alt="" /></a>
+			<h3>{{ .title }}</h3>
+			<p>{{ .description | markdownify }}</p>
+		</article>
+		{{ end }}
+	</div>
+</section>
