@@ -1,6 +1,6 @@
 baseurl = "http://ryota-murakami.github.io/"
 languageCode = "ja"
-title = "Strata"
+title = "ryota-murakami"
 theme = "hugo-strata-theme"
 
 [params]
