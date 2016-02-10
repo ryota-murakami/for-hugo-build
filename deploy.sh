@@ -35,14 +35,17 @@ else
 fi
 
 # Main
-
-echo $COMMIT_COMMNET;
+if [[ -n $1 ]]; then
+	COMMIT_COMMNET=$1
+else
+	COMMIT_COMMNET="update `date`"
+fi
 
 cd $PUBLIC_DIR
 
 git add --all
 
-git commit -m "update `date`"
+git commit -m "$COMMIT_COMMNET"
 
 git push
 
@@ -50,6 +53,6 @@ cd $ROOT_DIR
 
 git add --all
 
-git commit -m "update `date`"
+git commit -m "$COMMIT_COMMNET"
 
 git push
