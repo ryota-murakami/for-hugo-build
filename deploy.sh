@@ -48,7 +48,7 @@ function set_commit_comment() {
 }
 
 readonly HUGO_ROOT_DIR=$(cd $(dirname $0);pwd)
-readonly PUBLIC_DIR="${HUGO_ROOT_DIR}/public";
+readonly PUBLIC_DIR="${HUGO_ROOT_DIR}/public"
 
 set_commit_comment $@
 
