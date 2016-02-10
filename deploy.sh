@@ -1,6 +1,6 @@
 #!/bin/bash
-ROOT_DIR=$(cd $(dirname $0);pwd)
-PUBLIC_DIR="${ROOT_DIR}/public";
+
+# Usage
 
 function usage() {
 cat <<_EOT_
@@ -35,11 +35,22 @@ else
 fi
 
 # Main
-if [[ -n $1 ]]; then
-	COMMIT_COMMNET=$1
-else
-	COMMIT_COMMNET="update `date`"
-fi
+
+function set_commit_comment() {
+  if [[ -n $@ ]]; then
+		for str in $@
+		do
+			COMMIT_COMMNET="${COMMIT_COMMNET} $str"
+		done
+  else
+	  COMMIT_COMMNET="update `date`"
+  fi
+}
+
+readonly HUGO_ROOT_DIR=$(cd $(dirname $0);pwd)
+readonly PUBLIC_DIR="${HUGO_ROOT_DIR}/public";
+
+set_commit_comment $@
 
 cd $PUBLIC_DIR
 
@@ -49,7 +60,7 @@ git commit -m "$COMMIT_COMMNET"
 
 git push
 
-cd $ROOT_DIR
+cd $HUGO_ROOT_DIR
 
 git add --all
 
