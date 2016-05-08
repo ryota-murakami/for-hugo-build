@@ -1,0 +1,9 @@
+{{ "<!-- Hobby -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.hobby.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+  <p>
+  {{ range .Site.Params.hobby.content }}
+    {{ .title | markdownify }}/
+  {{ end }}
+  </p>
+</section>

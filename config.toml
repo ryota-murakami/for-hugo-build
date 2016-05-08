@@ -36,6 +36,29 @@ theme = "hugo-strata-theme"
 		title = "Write Code Every day"
 		content = "都内でwebエンジニアをしています。仕事をしていない時はWBSを見たり、日経新聞を読んだり...<br>おもしろ個人サービスを開発する事が目標です*･ω･)ﾉ*･ω･)ﾉ*･ω･)ﾉ"
 
+	[params.hobby]
+		title = "趣味"
+
+		[[params.hobby.content]]
+			title = "WBS,日経新聞"
+
+		[[params.hobby.content]]
+			title = "英語学習"
+
+		[[params.hobby.content]]
+			title = "SUPER GT"
+
+		[[params.hobby.content]]
+			title = "MTG"
+
+		[[params.hobby.content]]
+			title = "ポケモン"
+
+		[[params.hobby.content]]
+			title = "遊戯王"
+
+		[[params.hobby.content]]
+			title = "日々のブログ更新"
 
 	[params.portfolio]
 		title = "良く見るサイト"
