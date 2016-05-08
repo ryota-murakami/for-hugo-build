@@ -1,5 +1,5 @@
 <!-- Three -->
-<section id="three">
+<section>
 	{{ with .Site.Params.contact.title }}<h2>{{ . }}</h2>{{ end }}
 	{{ with .Site.Params.contact.content }}<p>{{ . }}</p>{{ end }}
 	<div class="row" id="contact-form">
@@ -12,7 +12,7 @@
 					<div class="6u$ 12u$(xsmall)"><input type="email" name="_replyto" name="email" id="email" placeholder="{{ .Site.Params.contact.form.email }}" required/></div>
 					<div class="12u$"><textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}" rows="4" required></textarea></div>
 					<input type="text" name="_gotcha" style="display:none" />
-					
+
 					<ul class="actions">
 						<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}" /></li>
 					</ul>
