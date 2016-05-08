@@ -43,6 +43,12 @@ theme = "hugo-strata-theme"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.favsite]]
+			url = "http://www.nikkei.com/"
+			image = "favsite/nikkei.png"
+			title = "日経電子版"
+			description = ""
+
+		[[params.portfolio.favsite]]
 			url = "http://www3.nhk.or.jp/news/"
 			image = "favsite/nhk-news.png"
 			title = "NHKニュース"
