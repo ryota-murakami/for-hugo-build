@@ -34,7 +34,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "Write Code Every day"
-		content = "都内でwebエンジニアをしています。<br>情報キュレーション系サービスを個人開発する事が目標です。"
+		content = "都内でwebエンジニアをしています。仕事をしていない時はWBSを見たり、日経新聞を読んだり...<br>おもしろ個人サービスを開発する事が目標です*･ω･)ﾉ*･ω･)ﾉ*･ω･)ﾉ"
 
 
 	[params.portfolio]
@@ -87,7 +87,7 @@ theme = "hugo-strata-theme"
 
 	[params.contact]
 		title = "メールフォーム"
-		content = "メールフォームを置いておきます。何かありましたらお気軽にご連絡ください。"
+		content = ""
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
