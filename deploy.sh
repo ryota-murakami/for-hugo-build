@@ -58,7 +58,7 @@ git add --all
 
 git commit -m "$COMMIT_COMMNET"
 
-git push
+git push origin master
 
 cd $HUGO_ROOT_DIR
 
@@ -66,4 +66,4 @@ git add --all
 
 git commit -m "$COMMIT_COMMNET"
 
-git push
+git push origin master
