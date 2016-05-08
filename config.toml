@@ -20,6 +20,8 @@ theme = "hugo-strata-theme"
 		bio = "**I'm Ryota.Murakami**, web developer.<br> HTML5/CSS3/JavaScripts/PHP/Symfony/Ruby on Rails/MySQL/AWS/Docker/etc…"
 
 		# The icons will be shown if you enter your username
+		blog = "http://malloc.tokyo"
+		hatenablog = "http://malloc.hatenablog.jp"
 		twitter = "malloc007"
 		github = "ryota-murakami"
 		dribbble = ""

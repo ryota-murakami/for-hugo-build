@@ -3,7 +3,13 @@
 	<ul class="icons">
 		{{ with .Site.Params.sidebar.facebook }}
 			   <li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-			   {{ end }}
+		{{ end }}
+		{{ with .Site.Params.sidebar.blog }}
+			   <li><a href="{{ . }}" target="_blank" class="icon fa-picture-o"><span class="label">Blog</span></a></li>
+		{{ end }}
+		{{ with .Site.Params.sidebar.hatenablog }}
+			   <li><a href="{{ . }}" target="_blank" class="icon fa-picture-o"><span class="label">Hatenablog</span></a></li>
+		{{ end }}
 		{{ with .Site.Params.sidebar.twitter }}
 		<li><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 		{{ end }}
