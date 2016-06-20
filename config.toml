@@ -36,7 +36,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "Write Code Every day"
-		content = "都内でwebエンジニアをしています。仕事をしていない時はWBSを見たり、日経新聞を読んだり...<br>おもしろ個人サービスを開発する事が目標です*･ω･)ﾉ*･ω･)ﾉ*･ω･)ﾉ"
+		content = "都内でwebエンジニアをしています。仕事をしていない時はWBSを見たり、日経新聞を読んだり...<br>おもしろ個人サービスを開発する事が目標です*･ω･)ﾉ*･ω･)ﾉ*･ω･)ﾉ<br>好きな英単語は「Colorful」"
 
 	[params.hobby]
 		title = "趣味"
