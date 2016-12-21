@@ -2500,6 +2500,10 @@
 			width: 6.25em;
 		}
 
+		#header > h1 > strong > a {
+			opacity: 0.8;
+		}
+
 /* Footer */
 
 	#footer {
