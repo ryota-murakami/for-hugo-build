@@ -20,7 +20,6 @@ theme = "hugo-strata-theme"
 		bio = '**<a href="https://twitter.com/malloc007" target="_blank">@Ryota.Murakami</a>**<br>web developer, software engineer.'
 
 		# The icons will be shown if you enter your username
-		blog = "http://malloc.tokyo"
 		hatenablog = "http://malloc.hatenablog.jp"
 		twitter = "malloc007"
 		github = "ryota-murakami"
@@ -28,7 +27,7 @@ theme = "hugo-strata-theme"
 		facebook = ""
 
 		copyright = [
-			"&copy; John Doe",
+			"&copy; Ryota Murakami",
 			"Design: [HTML5 UP](//html5up.net)",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
@@ -36,88 +35,49 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "Write Code Every day"
-		content = "都内でwebエンジニアをしています。仕事をしていない時はWBSを見たり、日経新聞を読んだり...<br>おもしろ個人サービスを開発する事が目標です*･ω･)ﾉ*･ω･)ﾉ*･ω･)ﾉ<br>好きな英単語は「Colorful」"
+		content = "TDB."
 
-	[params.hobby]
-		title = "趣味"
+	[params.skills]
+		title = "Skills"
 
-		[[params.hobby.content]]
-			title = "WBS,日経新聞"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "英語学習"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "SUPER GT"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "MTG"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "ポケモン"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "遊戯王"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "reddit"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "tedの動画鑑賞"
+		[[params.skills.content]]
+			title = ""
 
-		[[params.hobby.content]]
-			title = "Discovery Channelのモーガン・フリーマン番組"
+		[[params.skills.content]]
+			title = ""
 
-	[params.portfolio]
-		title = "良く見るサイト"
-
+	[params.works]
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-		[[params.portfolio.favsite]]
-			url = "http://www.nikkei.com/"
-			image = "favsite/nikkei.png"
-			title = "日経電子版"
-			description = ""
-
-		[[params.portfolio.favsite]]
-			url = "http://www3.nhk.or.jp/news/"
-			image = "favsite/nhk-news.png"
-			title = "NHKニュース"
-			description = ""
-
-		[[params.portfolio.favsite]]
-			url = "http://togetter.com/recentpopular"
-			image = "favsite/togetter.png"
-			title = "Togetter"
-			description = "" # "言わずと知れたTwitterまとめサイト。タイムラインで盛り上がったものは大体今週のまとめタブを見れば分かる。"
-
-		[[params.portfolio.favsite]]
-			url = "http://b.hatena.ne.jp"
-			image = "favsite/hatena-bookmark.png"
-			title = "はてなブックマーク"
-			 description = "" # "トップ画面と、テクノロジーの技術ブログ/エンジニアカテゴリを見る事が多い。<br>時事ネタのソースと付随エントリが上がっている事が多いが、<br>はてなブックマーク、なてな匿名ダイアリーといったはてな製サービスのエントリを批評する場としての性格も強い。"
-
-		[[params.portfolio.favsite]]
-			url = "http://b.hatena.ne.jp/topiclist"
-			image = "favsite/hatena-topic.png"
-			title = "はてなトピック"
-			description = ""
-
-		[[params.portfolio.favsite]]
-			url = "http://tubuyaki-bigdata.com/"
-			image = "favsite/tsubuyaki-bidata-matome.png"
-			title = "つぶやきビッグデータまとめ"
-			description = ""
-
-		[[params.portfolio.favsite]]
-			url = "http://www.walkerplus.com/"
-			image = "favsite/walkerplus.png"
-			title = "walkerplus"
-			description = ""
-
+		[[params.works.favsite]]
+			url = "https://github.com/ryota-murakami/daily-tweet"
+			image = "works/daily-tweet-example.png"
+			title = "Daily Tweet"
+			description = "TDB."
 
 	[params.contact]
-		title = "メールフォーム"
+		title = "Contact"
 		content = ""
 
 		# Since this template is static, the contact form uses www.formspree.io as a

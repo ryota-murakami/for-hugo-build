@@ -1,0 +1,9 @@
+{{ "<!-- skills -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.skills.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+  <p>
+  {{ range .Site.Params.skills.content }}
+    {{ .title | markdownify }}/
+  {{ end }}
+  </p>
+</section>

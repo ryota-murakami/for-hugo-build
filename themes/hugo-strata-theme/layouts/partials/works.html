@@ -1,0 +1,12 @@
+{{ "<!-- works -->" | safeHTML }}
+<section>
+	<div class="row">
+		{{ range .Site.Params.works.favsite }}
+		<article class="10u$ work-item">
+			<h1><a target="_blank" href="{{ .url }}">{{ .title }}</a></h1>
+			<p style="margin-bottom: 40px;font-size: 22px;">{{ .description | markdownify }}</p>
+			<img src="{{ .Site.BaseURL }}images/{{ .image }}" style="max-width: 100%;" alt="" />
+		</article>
+		{{ end }}
+	</div>
+</section>
