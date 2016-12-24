@@ -5,8 +5,7 @@
 		{{ range .Site.Params.works.favsite }}
 		<article class="10u$ work-item">
 			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
-			<p class="main-text" style="margin-bottom: 40px;">{{ .description | markdownify }}</p>
-			<img src="{{ .Site.BaseURL }}images/{{ .image }}" style="max-width: 100%;" alt="" />
+			<p class="main-text">{{ .description | markdownify }}</p>
 		</article>
 		{{ end }}
 	</div>

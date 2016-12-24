@@ -80,7 +80,6 @@ theme = "hugo-strata-theme"
 		# Create and change subfolders as you like
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/daily-tweet"
-			image = "works/daily-tweet-example.png"
 			title = "Daily Tweet"
 			description = "・Archive tweets on every other day."
 
