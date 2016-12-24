@@ -14,10 +14,15 @@ $ git submodule init
 $ git submodule update
 ```
 
-### Deploy
+### Development
 
 ```
 $ hugo // Compile
 $ hugo server // launch web server & edit watch
+```
+
+### Deploy
+
+```
 $ ./deploy.sh // push to hosting branch
 ```
