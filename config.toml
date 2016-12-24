@@ -17,14 +17,12 @@ theme = "hugo-strata-theme"
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "thumbnail.jpeg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = '**<a href="https://twitter.com/malloc007" target="_blank">@Ryota.Murakami</a>**<br>web developer, software engineer.'
+		bio = '**<a href="https://twitter.com/malloc007" target="_blank">@Ryota.Murakami</a>**'
 
 		# The icons will be shown if you enter your username
 		hatenablog = "http://malloc.hatenablog.jp"
 		twitter = "malloc007"
 		github = "ryota-murakami"
-		dribbble = ""
-		facebook = ""
 
 		copyright = [
 			"&copy; Ryota Murakami",
@@ -35,46 +33,56 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "Write Code Every day"
-		content = "TDB."
+		content = "I'm a web developer in Tokyo in Japan. Interested Recently,<br>See the latest trends, data and visualizations from human community."
 
 	[params.skills]
 		title = "Skills"
 
 		[[params.skills.content]]
-			title = ""
+			title = "Git, Github Workflow"
 
 		[[params.skills.content]]
-			title = ""
+			title = "HTML5, CSS3, Hugo"
 
 		[[params.skills.content]]
-			title = ""
+			title = "JavaScript(jQuery, Angular, React, Webpack eco-system)"
 
 		[[params.skills.content]]
-			title = ""
+			title = "PHP(Wordpress, Symfony, Silex, FuelPHP)"
 
 		[[params.skills.content]]
-			title = ""
+		 	title = "Ruby on Rails"
 
 		[[params.skills.content]]
-			title = ""
+			title = "Linux(Ubuntu, CentOS)"
 
 		[[params.skills.content]]
-			title = ""
+			title = "MySQL, PostgreSQL, Elastic Search"
 
 		[[params.skills.content]]
-			title = ""
+			title = "Apache, nginx, Unicorn"
 
 		[[params.skills.content]]
-			title = ""
+			title = "Ansible, Vagrant, Docker, Packer, fabric"
+
+		[[params.skills.content]]
+			title = "AWS, IDCF Cloud, Mackerel"
+
+		[[params.skills.content]]
+			title = "Java, Scala, Apache Spark"
+
+		[[params.skills.content]]
+			title = "Objective-C"
 
 	[params.works]
+		title = "Works"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/daily-tweet"
 			image = "works/daily-tweet-example.png"
 			title = "Daily Tweet"
-			description = "TDB."
+			description = "・Archive tweets on every other day."
 
 	[params.contact]
 		title = "Contact"

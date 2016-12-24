@@ -2,9 +2,6 @@
 <footer id="footer">
 	<h1 style="margin: 0;">Links</h1>
 	<ul class="icons">
-		{{ with .Site.Params.sidebar.facebook }}
-			   <li><a href="//facebook.com/{{ . }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		{{ end }}
 		{{ with .Site.Params.sidebar.hatenablog }}
 			   <li><a href="{{ . }}" target="_blank" class="icon fa-picture-o"><span class="label">Hatenablog</span></a></li>
 		{{ end }}
@@ -14,7 +11,6 @@
 		{{ with .Site.Params.sidebar.github }}
 		<li><a href="//github.com/{{ . }}" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
 		{{ end }}
-	</ul>
 
 	<ul class="copyright">
 		{{ range .Site.Params.sidebar.copyright }}

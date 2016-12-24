@@ -2,5 +2,5 @@
 	<header class="major">
 		{{ with .Site.Params.about.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
 	</header>
-	{{ with .Site.Params.about.content }}<p>{{ . | markdownify }}</p>{{ end }}
+	{{ with .Site.Params.about.content }}<p class="main-text">{{ . | markdownify }}</p>{{ end }}
 </section>

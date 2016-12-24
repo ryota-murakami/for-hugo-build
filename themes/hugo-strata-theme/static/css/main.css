@@ -3111,3 +3111,8 @@
 			}
 
 	}
+
+	.main-text {
+		font-size: 1.5em !important;
+		color: #787878;
+	}
