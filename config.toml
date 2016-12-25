@@ -81,22 +81,29 @@ theme = "hugo-strata-theme"
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/daily-tweet"
 			title = "Daily Tweet"
-			description = "・Archive tweets on every other day."
+			description = "Archive tweets on every other day."
 
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
 			title = "Twitter bearer-token getter"
-			description = "・CLI tool of get twitter api bearer token."
+			description = "CLI tool of get twitter api bearer token."
 
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/yamanote-bash"
 			title = "Yamanote Bash"
-			description = "・yamanote-game in console."
+			description = "yamanote-game in console."
 
 		[[params.works.favsite]]
 			url = "https://github.com/ryota-murakami/blog"
 			title = "blog"
-			description = "・personal blogs."
+			description = "personal blogs."
+
+	[params.activity]
+		title = "Activity"
+
+			[[params.activity.items]]
+				url = "http://malloc.hatenablog.jp/"
+				title = "Hatena Blog"
 
 	[params.contact]
 		title = "Contact"

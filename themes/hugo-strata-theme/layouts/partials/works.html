@@ -4,8 +4,8 @@
 	<div class="row">
 		{{ range .Site.Params.works.favsite }}
 		<article class="10u$ work-item">
-			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
-			<p class="main-text">{{ .description | markdownify }}</p>
+			<h2 style="margin-bottom: 0.4em;"><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
+			<p style="font-size: 1.1em;color: #787878;">{{ .description | markdownify }}</p>
 		</article>
 		{{ end }}
 	</div>

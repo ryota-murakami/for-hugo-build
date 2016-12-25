@@ -1,0 +1,11 @@
+{{ "<!-- activity -->" | safeHTML }}
+<section>
+	{{ with .Site.Params.activity.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+	<div class="row">
+		{{ range .Site.Params.activity.items }}
+		<article class="10u$ work-item">
+			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
+		</article>
+		{{ end }}
+	</div>
+</section>

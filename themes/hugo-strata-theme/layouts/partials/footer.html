@@ -1,10 +1,6 @@
 {{ "<!-- Footer -->" | safeHTML }}
 <footer id="footer">
-	<h1 style="margin: 0;">Links</h1>
 	<ul class="icons">
-		{{ with .Site.Params.sidebar.hatenablog }}
-			   <li><a href="{{ . }}" target="_blank" class="icon fa-picture-o"><span class="label">Hatenablog</span></a></li>
-		{{ end }}
 		{{ with .Site.Params.sidebar.twitter }}
 		<li><a href="//twitter.com/{{ . }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 		{{ end }}
