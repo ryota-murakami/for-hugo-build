@@ -1,7 +1,7 @@
 {{ "<!-- works -->" | safeHTML }}
 <section>
 	{{ with .Site.Params.works.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
-	<div class="row">
+	<div class="row works-row">
 		{{ range .Site.Params.works.favsite }}
 		<article class="10u$ work-item">
 			<h2 style="margin-bottom: 0.4em;"><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
