@@ -2,7 +2,7 @@
 <section>
 	{{ with .Site.Params.works.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row works-row">
-		{{ range .Site.Params.works.favsite }}
+		{{ range .Site.Params.works.items }}
 		<article class="10u$ work-item">
 			<h2 style="margin-bottom: 0.4em;"><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
 			<p style="font-size: 1.1em;color: #787878;">{{ .description | markdownify }}</p>

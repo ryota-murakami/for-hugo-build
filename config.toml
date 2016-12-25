@@ -38,62 +38,62 @@ theme = "hugo-strata-theme"
 	[params.skills]
 		title = "Skills"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Git, Github Workflow"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "HTML5, CSS3, Hugo"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "JavaScript(jQuery, Angular, React, Webpack eco-system)"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "PHP(Wordpress, Symfony, Silex, FuelPHP)"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 		 	title = "Ruby on Rails"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Linux(Ubuntu, CentOS)"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "MySQL, PostgreSQL, Elastic Search"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Apache, nginx, Unicorn"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Ansible, Vagrant, Docker, Packer, fabric"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "AWS, IDCF Cloud, Mackerel"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Java, Scala, Apache Spark"
 
-		[[params.skills.content]]
+		[[params.skills.items]]
 			title = "Objective-C"
 
 	[params.works]
 		title = "Works"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-		[[params.works.favsite]]
+		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/daily-tweet"
 			title = "Daily Tweet"
 			description = "Archive tweets on every other day."
 
-		[[params.works.favsite]]
+		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
 			title = "Twitter bearer-token getter"
 			description = "CLI tool of get twitter api bearer token."
 
-		[[params.works.favsite]]
+		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/yamanote-bash"
 			title = "Yamanote Bash"
 			description = "yamanote-game in console."
 
-		[[params.works.favsite]]
+		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/blog"
 			title = "blog"
 			description = "personal blogs."
