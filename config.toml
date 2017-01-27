@@ -7,7 +7,7 @@ theme = "hugo-strata-theme"
 	# To provide some metadata for search engines feel free to add a few
 	# information about you and your website.
 	name = "Ryota.Murakami"
-	description = "My Portfolio"
+	description = "Portfolio"
 
 	# Enable Google Analytics by inserting your tracking code
 	googleAnalytics = "UA-68130749-2"
