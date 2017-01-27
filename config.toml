@@ -96,7 +96,7 @@ theme = "hugo-strata-theme"
 		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/blog"
 			title = "blog"
-			description = "personal blogs."
+			description = "Personal blogs."
 
 	[params.activity]
 		title = "Activity"
