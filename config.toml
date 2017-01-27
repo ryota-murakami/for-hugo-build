@@ -10,7 +10,7 @@ theme = "hugo-strata-theme"
 	description = "My Portfolio"
 
 	# Enable Google Analytics by inserting your tracking code
-	googleAnalytics = ""
+	googleAnalytics = "UA-68130749-2"
 
 
 	[params.sidebar]
