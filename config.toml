@@ -27,7 +27,7 @@ theme = "hugo-strata-theme"
 		copyright = [
 			"&copy; Ryota Murakami",
 			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"Images: [Unsplash](//unsplash.com/)"
 		]
 
 
