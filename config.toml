@@ -46,7 +46,7 @@ theme = "hugo-strata-theme"
 			title = "HTML5, CSS3, Hugo"
 
 		[[params.skills.items]]
-			title = "JavaScript(jQuery, Angular, React, Webpack eco-system)"
+			title = "JavaScript(jQuery, Angular, React, Redux, Webpack eco-system)"
 
 		[[params.skills.items]]
 			title = "PHP(Wordpress, Symfony, Silex, FuelPHP)"
