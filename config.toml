@@ -108,6 +108,9 @@ theme = "hugo-strata-theme"
 			[[params.activity.items]]
 				url = "http://qiita.com/ryota-murakami"
 				title = "Qiita"
+			[[params.activity.items]]
+				url = "https://malloc.tokyo/"
+				title = "malloc.tokyo"
 
 
 	[params.contact]
