@@ -100,7 +100,7 @@ theme = "hugo-strata-theme"
 			description = "Personal blogs."
 
 	[params.activity]
-		title = "Activity"
+		title = "Blogs"
 
 			[[params.activity.items]]
 				url = "http://malloc.hatenablog.jp/"
