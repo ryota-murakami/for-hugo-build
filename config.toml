@@ -106,9 +106,6 @@ theme = "hugo-strata-theme"
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
 			[[params.activity.items]]
-				url = "http://qiita.com/ryota-murakami"
-				title = "Qiita"
-			[[params.activity.items]]
 				url = "https://malloc.tokyo/"
 				title = "malloc.tokyo"
 
