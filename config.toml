@@ -99,16 +99,15 @@ theme = "hugo-strata-theme"
 			title = "blog"
 			description = "Personal blogs."
 
-	[params.activity]
+	[params.blogs]
 		title = "Blogs"
 
-			[[params.activity.items]]
+			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
-			[[params.activity.items]]
+			[[params.blogs.items]]
 				url = "https://malloc.tokyo/"
 				title = "malloc.tokyo"
-
 
 	[params.contact]
 		title = "Contact"
