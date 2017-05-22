@@ -109,6 +109,19 @@ theme = "hugo-strata-theme"
 				url = "https://malloc.tokyo/"
 				title = "malloc.tokyo"
 
+	[params.activity]
+		title = "Activity"
+
+			[[params.activity.items]]
+				url = "https://twitter.com/malloc007"
+				title = "Twitter"
+			[[params.activity.items]]
+				url = "https://www.instagram.com/ryota_murakam1/"
+				title = "Instagram"
+			[[params.activity.items]]
+				url = "https://github.com/ryota-murakami"
+				title = "GitHub"
+
 	[params.contact]
 		title = "Contact"
 
