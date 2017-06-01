@@ -80,8 +80,8 @@ theme = "hugo-strata-theme"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.works.items]]
-			url = "https://github.com/ryota-murakami/daily-tweet"
-			title = "Daily Tweet"
+			url = "https://github.com/ryota-murakami/trueblue"
+			title = "True Blue"
 			description = "Archive tweets on every other day."
 
 		[[params.works.items]]
