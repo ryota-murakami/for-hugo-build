@@ -43,7 +43,7 @@ theme = "hugo-strata-theme"
 			title = "JetBrains All Products Pack"
 
 		[[params.skills.items]]
-			title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc..
+			title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
 
 		[[params.skills.items]]
 			title = "TCP/IP, Computer Science knowledges"
