@@ -34,7 +34,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "The Straightforward Way"
-		content = "I'm a web developer live in Tokyo, Japan. I call myself a “Freedom information engineer”.<br>I'm Unofficial Googler."
+		content = "I'm a web developer live in Tokyo, Japan. and “Freedom information engineer”.<br>I'm Unofficial Googler."
 
 	[params.skills]
 		title = "Skills"
