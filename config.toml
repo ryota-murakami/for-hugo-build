@@ -40,40 +40,97 @@ theme = "hugo-strata-theme"
 		title = "Skills"
 
 		[[params.skills.items]]
+			title = "JetBrains All Products Pack(Mainly), Subline Text, Atom, Visual Studio Code, Vim, CotEditor, Sakura Editor"
+
+		[[params.skills.items]]
+			title = "Software Architecture (Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
+
+		[[params.skills.items]]
+			title = "TCP/IP, Computer Science knowledges"
+
+		[[params.skills.items]]
 			title = "Git, Github Workflow"
 
 		[[params.skills.items]]
 			title = "HTML5, CSS3, Hugo"
 
 		[[params.skills.items]]
-			title = "JavaScript(jQuery, Angular, React, Redux, Webpack eco-system)"
+			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
 
 		[[params.skills.items]]
-			title = "PHP(Wordpress, Symfony, Silex, FuelPHP)"
+			title = "sketch(Mainly), Photoshop, Illustrator, Blender"
 
 		[[params.skills.items]]
-		 	title = "Ruby on Rails"
+			title = "JavaScript(ES5, ES2016, TypeScript, CoffeScript), jQuery, Angular, React/Redux, Vue/Vuex, Webpack eco-system, gulp"
 
 		[[params.skills.items]]
-			title = "Linux(Ubuntu, CentOS)"
+			title = "ServiceWorker, WebComponent, WebSocket, WebGL, Web RTC, Canvas, Payment Request API, Apple Pay Safari"
 
 		[[params.skills.items]]
-			title = "MySQL, PostgreSQL, Elastic Search"
+			title = "WebAssembly(Rust), elm"
 
 		[[params.skills.items]]
-			title = "Apache, nginx, Unicorn"
+			title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
 
 		[[params.skills.items]]
-			title = "Ansible, Vagrant, Docker, Packer, fabric"
+			title = "Node.js, Express"
 
 		[[params.skills.items]]
-			title = "AWS, IDCF Cloud, Mackerel"
+		 	title = "Ruby on Rails, Pure Ruby"
 
 		[[params.skills.items]]
-			title = "Java, Scala, Apache Spark"
+		 	title = "Go(net/http, Goroutines)"
 
 		[[params.skills.items]]
-			title = "Objective-C"
+		 	title = "Python, scikit-learn, jupyter notebook"
+
+		[[params.skills.items]]
+		 	title = "C/C++, win32 sdk"
+
+		[[params.skills.items]]
+		 	title = "Unity, C#"
+
+		[[params.skills.items]]
+			title = "Debian Ubuntu(Mainly), Red Hat/CentOS, Kali Linux"
+
+		[[params.skills.items]]
+			title = "Tor, BitTorrent, Wireshark, Cain & Abel, Fiddler, SecurityFocus, crunch, THC-Hydra, Metasploit, Meterpreter, Netcat, Cryptcat"
+
+		[[params.skills.items]]
+			title = "Let's Encrypt, onamae.com"
+
+		[[params.skills.items]]
+			title = "New Relic, Google Analytics, Google Search Console"
+
+		[[params.skills.items]]
+			title = "CLOUD VISION API, CLOUD NATURAL LANGUAGE API, CLOUD TRANSLATION API, (keras/tensorflow is I'v never touch. because google already provide powerful Machine-Lerned-Model, I'm satisfy use those inference.)"
+
+		[[params.skills.items]]
+			title = "MySQL, PostgreSQL, Elastic Search, RDS, Cloud Spanner, BigQuery"
+
+		[[params.skills.items]]
+			title = "Nginx(Mainly), PHP-FPM, Apache, Unicorn, Puma"
+
+		[[params.skills.items]]
+			title = "Ansible, Vagrant, Docker, Kubernetes, Packer, fabric"
+
+		[[params.skills.items]]
+			title = "CloudFlare, Fastly, Akamai"
+
+		[[params.skills.items]]
+			title = "GCP(Mainly), AWS, IDCF Cloud, Sakura VPS, ConoHa VPS"
+
+		[[params.skills.items]]
+			title = "Java, Scala, Apache Spark, Play Framework"
+
+		[[params.skills.items]]
+			title = "Android Progressive Web App"
+
+		[[params.skills.items]]
+			title = "iOS UIKit, Swift, Objective-C"
+
+		[[params.skills.items]]
+			title = "raspberry pi(Minecraft), arduino"
 
 	[params.works]
 		title = "Works"
