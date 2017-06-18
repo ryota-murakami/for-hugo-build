@@ -43,6 +43,9 @@ theme = "hugo-strata-theme"
 			title = "JetBrains All Products Pack"
 
 		[[params.skills.items]]
+			title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
+
+		[[params.skills.items]]
 			title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
 
 		[[params.skills.items]]
