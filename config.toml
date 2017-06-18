@@ -94,6 +94,9 @@ theme = "hugo-strata-theme"
 		 	title = "Unity, C#"
 
 		[[params.skills.items]]
+		 	title = "Shell script, fish shell"
+
+		[[params.skills.items]]
 			title = "Debian Ubuntu(Mainly), Red Hat/CentOS, Kali Linux"
 
 		[[params.skills.items]]
