@@ -40,7 +40,7 @@ theme = "hugo-strata-theme"
 		title = "Skills"
 
 		[[params.skills.items]]
-			title = "JetBrains All Products Pack(Mainly), Subline Text, Atom, Visual Studio Code, Vim, CotEditor, Sakura Editor"
+			title = "JetBrains All Products Pack"
 
 		[[params.skills.items]]
 			title = "Software Architecture (Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
