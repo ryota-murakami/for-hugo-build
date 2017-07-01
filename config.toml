@@ -100,9 +100,6 @@ theme = "hugo-strata-theme"
 			title = "Debian Ubuntu(Mainly), Red Hat/CentOS, Kali Linux"
 
 		[[params.skills.items]]
-			title = "Tor, BitTorrent, Wireshark, Cain & Abel, Fiddler, SecurityFocus, crunch, THC-Hydra, Metasploit, Meterpreter, Netcat, Cryptcat"
-
-		[[params.skills.items]]
 			title = "Let's Encrypt, onamae.com"
 
 		[[params.skills.items]]
