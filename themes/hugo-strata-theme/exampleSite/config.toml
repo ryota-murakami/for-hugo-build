@@ -9,10 +9,6 @@ theme = "hugo-strata-theme"
 	name = "Your name"
 	description = "Describe your website"
 
-	# Enable Google Analytics by inserting your tracking code
-	googleAnalytics = ""
-
-
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"

@@ -10,10 +10,6 @@ theme = "hugo-strata-theme"
 	name = "Ryota.Murakami"
 	description = "Portfolio"
 
-	# Enable Google Analytics by inserting your tracking code
-	googleAnalytics = "UA-68130749-2"
-
-
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "thumbnail.jpeg"
