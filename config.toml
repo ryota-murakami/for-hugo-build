@@ -84,9 +84,6 @@ theme = "hugo-strata-theme"
 		 	title = "C/C++, win32 sdk"
 
 		[[params.skills.items]]
-		 	title = "Unity, C#"
-
-		[[params.skills.items]]
 		 	title = "Shell script, fish shell"
 
 		[[params.skills.items]]
