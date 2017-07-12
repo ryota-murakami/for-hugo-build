@@ -66,9 +66,6 @@ theme = "hugo-strata-theme"
 			title = "ServiceWorker, WebComponent, WebSocket, WebGL, Web RTC, Canvas, Payment Request API, Apple Pay Safari"
 
 		[[params.skills.items]]
-			title = "WebAssembly(Rust), elm"
-
-		[[params.skills.items]]
 			title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
 
 		[[params.skills.items]]
