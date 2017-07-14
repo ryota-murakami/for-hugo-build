@@ -107,12 +107,6 @@ theme = "hugo-strata-theme"
 		[[params.skills.items]]
 			title = "Java, Scala, Apache Spark"
 
-		[[params.skills.items]]
-			title = "Android Progressive Web App"
-
-		[[params.skills.items]]
-			title = "iOS UIKit, Swift, Objective-C"
-
 	[params.works]
 		title = "Works"
 		# The images and thumbnails are stored under static/images
