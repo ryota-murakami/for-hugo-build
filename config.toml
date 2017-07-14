@@ -60,7 +60,10 @@ theme = "hugo-strata-theme"
 			title = "sketch"
 
 		[[params.skills.items]]
-			title = "JavaScript(ES5, ES2015), React/Redux/jest, jQuery, Angular1, Webpack, gulp"
+			title = "React, Redux, Jest, GraphQL, React Native"
+
+		[[params.skills.items]]
+			title = "JavaScript(ES5, ES2015), jQuery, Angular1, Webpack, gulp"
 
 		[[params.skills.items]]
 			title = "ServiceWorker, WebComponent, WebSocket, WebGL, Web RTC, Canvas, Payment Request API, Apple Pay Safari"
