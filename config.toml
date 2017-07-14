@@ -57,7 +57,7 @@ theme = "hugo-strata-theme"
 			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
 
 		[[params.skills.items]]
-			title = "sketch(Mainly), Photoshop, Illustrator, Blender"
+			title = "sketch"
 
 		[[params.skills.items]]
 			title = "JavaScript(ES5, ES2015), React/Redux/jest, jQuery, Angular1, Webpack, gulp"
