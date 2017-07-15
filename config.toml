@@ -84,7 +84,7 @@ theme = "hugo-strata-theme"
 		 	title = "Shell script, fish shell"
 
 		[[params.skills.items]]
-			title = "Debian Ubuntu(Mainly), Red Hat/CentOS, Kali Linux"
+			title = "Debian Ubuntu(Mainly), Red Hat/CentOS"
 
 		[[params.skills.items]]
 			title = "Let's Encrypt, onamae.com"
