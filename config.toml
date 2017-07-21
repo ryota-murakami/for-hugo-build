@@ -57,7 +57,7 @@ theme = "hugo-strata-theme"
 			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
 
 		[[params.skills.items]]
-			title = "React, Redux, Jest, GraphQL, React Native(I prefer FaceBook Client-Side Stacks.Stacks)"
+			title = "React, Redux, Jest, GraphQL, React Native(I prefer FaceBook Client-Side Stacks.)"
 
 		[[params.skills.items]]
 			title = "JavaScript(ES5, ES2015), jQuery, Angular1, Webpack, gulp"
