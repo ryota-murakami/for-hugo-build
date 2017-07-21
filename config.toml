@@ -111,7 +111,7 @@ theme = "hugo-strata-theme"
 			title = "Java, Scala, Apache Spark"
 
 	[params.works]
-		title = "Works"
+		title = "Hobby Projects"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.works.items]]
@@ -125,14 +125,9 @@ theme = "hugo-strata-theme"
 			description = "CLI tool of get twitter api bearer token."
 
 		[[params.works.items]]
-			url = "https://github.com/ryota-murakami/yamanote-bash"
-			title = "Yamanote Bash"
-			description = "yamanote-game in console."
-
-		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/blog"
 			title = "blog"
-			description = "Personal blogs."
+			description = "Personal blogs. by Ruby on Rails."
 
 	[params.blogs]
 		title = "Blogs"
