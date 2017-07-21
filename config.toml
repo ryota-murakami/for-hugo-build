@@ -30,7 +30,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "The Straightforward Way"
-		content = "I'm a web developer live in Tokyo, Japan. and “Hybrid Engineer”."
+		content = "I'm a web developer live in Tokyo, Japan."
 
 	[params.skills]
 		title = "Skills"
