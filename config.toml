@@ -45,7 +45,7 @@ theme = "hugo-strata-theme"
 			title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
 
 		[[params.skills.items]]
-			title = "TCP/IP, Computer Science knowledges"
+			title = "TCP/IP, Basics Computer Science knowledges"
 
 		[[params.skills.items]]
 			title = "Git, Github Workflow"
@@ -57,16 +57,13 @@ theme = "hugo-strata-theme"
 			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
 
 		[[params.skills.items]]
-			title = "sketch"
-
-		[[params.skills.items]]
-			title = "React, Redux, Jest, GraphQL, React Native"
+			title = "React, Redux, Jest, GraphQL, React Native(I prefer FaceBook Client-Side Stacks.Stacks)"
 
 		[[params.skills.items]]
 			title = "JavaScript(ES5, ES2015), jQuery, Angular1, Webpack, gulp"
 
 		[[params.skills.items]]
-			title = "ServiceWorker, WebComponent, WebSocket, WebGL, Web RTC, Canvas, Payment Request API, Apple Pay Safari"
+			title = "ServiceWorker, Canvas, Payment Request API, Apple Pay Safari"
 
 		[[params.skills.items]]
 			title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
@@ -78,9 +75,6 @@ theme = "hugo-strata-theme"
 		 	title = "Ruby on Rails, Pure Ruby"
 
 		[[params.skills.items]]
-		 	title = "Python, scikit-learn, jupyter notebook"
-
-		[[params.skills.items]]
 		 	title = "Shell script, fish shell"
 
 		[[params.skills.items]]
@@ -90,19 +84,13 @@ theme = "hugo-strata-theme"
 			title = "Let's Encrypt, onamae.com"
 
 		[[params.skills.items]]
-			title = "New Relic, Google Analytics, Google Search Console"
+			title = "MySQL, PostgreSQL"
 
 		[[params.skills.items]]
-			title = "CLOUD VISION API, CLOUD NATURAL LANGUAGE API, CLOUD TRANSLATION API, (keras/tensorflow is I'v never touch. because google already provide powerful Machine-Lerned-Model, I'm satisfy use those inference.)"
+			title = "Nginx(Mainly), PHP-FPM, Apache, Unicorn"
 
 		[[params.skills.items]]
-			title = "MySQL, PostgreSQL, Elastic Search, RDS"
-
-		[[params.skills.items]]
-			title = "Nginx(Mainly), PHP-FPM, Apache, Unicorn, Puma"
-
-		[[params.skills.items]]
-			title = "Ansible, Vagrant, Docker, Kubernetes, Packer, fabric"
+			title = "Ansible, Vagrant, Docker, Packer, fabric"
 
 		[[params.skills.items]]
 			title = "GCP(Mainly), AWS, IDCF Cloud"
@@ -135,9 +123,6 @@ theme = "hugo-strata-theme"
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
-			[[params.blogs.items]]
-				url = "https://malloc.tokyo/"
-				title = "malloc.tokyo"
 
 	[params.activity]
 		title = "Activity"
