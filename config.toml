@@ -115,10 +115,10 @@ theme = "hugo-strata-theme"
 		[[params.works.items]]
 			url = "https://github.com/ryota-murakami/blog"
 			title = "blog"
-			description = "Personal blogs. by Ruby on Rails."
+			description = "Personal blog. by Ruby on Rails."
 
 	[params.blogs]
-		title = "Blogs"
+		title = "Blog"
 
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
