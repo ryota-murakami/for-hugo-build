@@ -78,7 +78,7 @@ theme = "hugo-strata-theme"
 		 	title = "Shell script, fish shell"
 
 		[[params.skills.items]]
-			title = "Debian Ubuntu(Mainly), Red Hat/CentOS"
+			title = "Debian Ubuntu, Red Hat/CentOS"
 
 		[[params.skills.items]]
 			title = "Let's Encrypt, onamae.com"
@@ -87,7 +87,7 @@ theme = "hugo-strata-theme"
 			title = "MySQL, PostgreSQL"
 
 		[[params.skills.items]]
-			title = "Nginx(Mainly), PHP-FPM, Apache, Unicorn"
+			title = "Nginx, PHP-FPM, Apache, Unicorn"
 
 		[[params.skills.items]]
 			title = "Ansible, Vagrant, Docker, Packer, fabric"
