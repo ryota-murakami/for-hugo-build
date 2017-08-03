@@ -112,11 +112,6 @@ theme = "hugo-strata-theme"
 			title = "Twitter bearer-token getter"
 			description = "CLI tool of get twitter api bearer token."
 
-		[[params.works.items]]
-			url = "https://github.com/ryota-murakami/blog"
-			title = "blog"
-			description = "Personal blog. by Ruby on Rails."
-
 	[params.blogs]
 		title = "Blog"
 
