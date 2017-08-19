@@ -113,11 +113,15 @@ theme = "hugo-strata-theme"
 			description = "CLI tool of get twitter api bearer token."
 
 	[params.blogs]
-		title = "Blog"
+		title = "Blogs"
+
+            [[params.blogs.items]]
+				url = "https://medium.com/@malloc007"
+				title = "Medium"
 
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
-				title = "Hatena Blog"
+				title = "Hatena Blog(Japanese)"
 
 	[params.activity]
 		title = "Activity"
