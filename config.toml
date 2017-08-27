@@ -36,9 +36,6 @@ theme = "hugo-strata-theme"
 		title = "Skills"
 
 		[[params.skills.items]]
-			title = "JetBrains All Products Pack"
-
-		[[params.skills.items]]
 			title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
 
 		[[params.skills.items]]
