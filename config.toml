@@ -30,7 +30,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "The Straightforward Way"
-		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>favorite JavaScript & OpenSource Comunity, Especally React, React Native, Graphcool🌎"
+		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>favorite JavaScript & OpenSource Comunity, especally React, React Native, Graphcool🌎"
 
 	[params.skills]
 		title = "Skills"
