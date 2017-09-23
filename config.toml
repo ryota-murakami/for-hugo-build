@@ -93,7 +93,7 @@ theme = "hugo-strata-theme"
 			title = "Java, Scala, Apache Spark"
 
 	[params.works]
-		title = "Hobby Projects"
+		title = "Personal Projects"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.works.items]]
