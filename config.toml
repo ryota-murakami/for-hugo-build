@@ -33,7 +33,7 @@ theme = "hugo-strata-theme"
 		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>favorite JavaScript & OpenSource Comunity, especally React, React Native, Graphcool🌎"
 
 	[params.skills]
-		title = "Skills"
+		title = "skill set"
 
 		[[params.skills.items]]
 			title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
