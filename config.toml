@@ -30,7 +30,7 @@ theme = "hugo-strata-theme"
 
 	[params.about]
 		title = "The Straightforward Way"
-		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>"
+		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>favorite JavaScript & OpenSource Comunity, Especally React, React Native, Graphcool🌎"
 
 	[params.skills]
 		title = "Skills"
@@ -48,7 +48,7 @@ theme = "hugo-strata-theme"
 			title = "Git, Github Workflow"
 
 		[[params.skills.items]]
-			title = "HTML5, CSS3, Hugo"
+			title = "HTML5, CSS3"
 
 		[[params.skills.items]]
 			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
