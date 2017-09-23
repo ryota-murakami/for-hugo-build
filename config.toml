@@ -48,16 +48,13 @@ theme = "hugo-strata-theme"
 			title = "Git, Github Workflow"
 
 		[[params.skills.items]]
-			title = "HTML5, CSS3"
+			title = "HTML5, CSS3, SASS, BootStrap"
 
 		[[params.skills.items]]
-			title = "SASS, Compass, BootStrap, Flat-UI, Materialize"
+			title = "React, Redux, GraphQL, React Native"
 
 		[[params.skills.items]]
-			title = "React, Redux, Jest, GraphQL, React Native(I prefer FaceBook Client-Side Stacks.)"
-
-		[[params.skills.items]]
-			title = "JavaScript(ES5, ES2015), jQuery, Angular1, Webpack, gulp"
+			title = "JavaScript, jQuery, Angular1, Webpack, gulp"
 
 		[[params.skills.items]]
 			title = "ServiceWorker, Canvas, Payment Request API, Apple Pay Safari"
