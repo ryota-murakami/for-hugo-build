@@ -1,8 +1,8 @@
 {{ "<!-- activity -->" | safeHTML }}
 <section>
-	{{ with .Site.Params.activity.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+	{{ with .Site.Params.sns.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row">
-		{{ range .Site.Params.activity.items }}
+		{{ range .Site.Params.sns.items }}
 		<article class="10u$">
 			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
 		</article>

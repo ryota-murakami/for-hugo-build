@@ -62,16 +62,16 @@ theme = "hugo-strata-theme"
 				url = "https://medium.com/@malloc007"
 				title = "Medium"
 
-	[params.activity]
+	[params.sns]
 		title = "SNS"
 
-			[[params.activity.items]]
+			[[params.sns.items]]
 				url = "https://twitter.com/malloc007"
 				title = "Twitter"
-			[[params.activity.items]]
+			[[params.sns.items]]
 				url = "https://www.instagram.com/ryota_murakam1/"
 				title = "Instagram"
-			[[params.activity.items]]
+			[[params.sns.items]]
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
 
