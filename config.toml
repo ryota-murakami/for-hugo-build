@@ -31,7 +31,7 @@ theme = "hugo-strata-theme"
 	[params.about]
 		title = "A freelance Front End Developer."
 
-		content = "I'm live in Tokyo, Japan.<br>I especially like React community.🌎"
+		content = "I'm live in Tokyo, Japan.<br>working as a freelancer for 2~3 days in per week, and developing my own products.<br>especially like React community.🌎"
 
 	[params.product]
 		title = "Product"
