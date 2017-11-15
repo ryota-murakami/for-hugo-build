@@ -29,72 +29,12 @@ theme = "hugo-strata-theme"
 
 
 	[params.about]
-		title = "The Straightforward Way"
+		title = "A freelance Front End Developer."
 
-		content = "I'm a freelance Front End Developer. live in Tokyo, Japan.<br>I was fascinated OpenSource World Comunity, especally JavaScript, React, React Native, Graphcool🌎"
-
-	[params.skills]
-		title = "skill set"
-
-		[[params.skills.items]]
-			title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
-
-		[[params.skills.items]]
-			title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
-
-		[[params.skills.items]]
-			title = "TCP/IP, Basics Computer Science knowledges"
-
-		[[params.skills.items]]
-			title = "Git, Github Workflow"
-
-		[[params.skills.items]]
-			title = "HTML5, CSS3, SASS, BootStrap"
-
-		[[params.skills.items]]
-			title = "React, Redux, GraphQL, React Native"
-
-		[[params.skills.items]]
-			title = "JavaScript, jQuery, Angular1, Webpack, gulp"
-
-		[[params.skills.items]]
-			title = "ServiceWorker, Canvas, Payment Request API, Apple Pay Safari"
-
-		[[params.skills.items]]
-			title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
-
-		[[params.skills.items]]
-			title = "Node.js, Express"
-
-		[[params.skills.items]]
-		 	title = "Ruby on Rails, Pure Ruby"
-
-		[[params.skills.items]]
-		 	title = "Shell script, fish shell"
-
-		[[params.skills.items]]
-			title = "Debian Ubuntu, Red Hat/CentOS"
-
-		[[params.skills.items]]
-			title = "Let's Encrypt, onamae.com"
-
-		[[params.skills.items]]
-			title = "MySQL, PostgreSQL"
-
-		[[params.skills.items]]
-			title = "Nginx, PHP-FPM, Apache, Unicorn"
-
-		[[params.skills.items]]
-			title = "Ansible, Vagrant, Docker, Packer, fabric"
-
-		[[params.skills.items]]
-			title = "GCP(Mainly), AWS, IDCF Cloud"
-
-		[[params.skills.items]]
-			title = "Java, Scala, Apache Spark"
+		content = "I'm live in Tokyo, Japan.<br>I especially like React community.🌎"
 
 	[params.works]
-		title = "Personal Projects"
+		title = "Product"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.works.items]]
@@ -103,23 +43,27 @@ theme = "hugo-strata-theme"
 			description = "Archive tweets on every other day."
 
 		[[params.works.items]]
-			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
-			title = "Twitter bearer-token getter"
-			description = "CLI tool of get twitter api bearer token."
+			url = "https://github.com/ryota-murakami/clock-up"
+			title = "Clock-up"
+			description = "Personnel time management application."
 
 	[params.blogs]
-		title = "Blogs"
-
-            [[params.blogs.items]]
-				url = "https://medium.com/@malloc007"
-				title = "Medium"
+		title = "Blog"
 
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
-				title = "Hatena Blog(Japanese)"
+				title = "Hatena Blog(日本語)"
+
+			[[params.blogs.items]]
+  				url = "http://malloc.tokyo/"
+  				title = "malloc.tokyo(日本語)"
+
+			[[params.blogs.items]]
+				url = "https://medium.com/@malloc007"
+				title = "Medium"
 
 	[params.activity]
-		title = "Activity"
+		title = "SNS"
 
 			[[params.activity.items]]
 				url = "https://twitter.com/malloc007"
@@ -130,6 +74,65 @@ theme = "hugo-strata-theme"
 			[[params.activity.items]]
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
+
+		[params.skills]
+				title = "skill set"
+
+					[[params.skills.items]]
+						title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
+
+					[[params.skills.items]]
+						title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
+
+					[[params.skills.items]]
+						title = "TCP/IP, Basics Computer Science knowledges"
+
+					[[params.skills.items]]
+						title = "Git, Github Workflow"
+
+					[[params.skills.items]]
+						title = "HTML5, CSS3, SASS, BootStrap"
+
+					[[params.skills.items]]
+						title = "React, Redux, mobX, GraphQL, React Native"
+
+					[[params.skills.items]]
+						title = "JavaScript, jQuery, Angular1, Webpack, gulp"
+
+					[[params.skills.items]]
+						title = "ServiceWorker, Canvas, Payment Request API, Apple Pay Safari"
+
+					[[params.skills.items]]
+						title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
+
+					[[params.skills.items]]
+						title = "Node.js, Express"
+
+					[[params.skills.items]]
+					 	title = "Ruby on Rails, Pure Ruby"
+
+					[[params.skills.items]]
+					 	title = "Shell script, fish shell"
+
+					[[params.skills.items]]
+						title = "Debian Ubuntu, Red Hat/CentOS"
+
+					[[params.skills.items]]
+						title = "Let's Encrypt, onamae.com"
+
+					[[params.skills.items]]
+						title = "MySQL, PostgreSQL"
+
+					[[params.skills.items]] title = "Nginx, PHP-FPM, Apache, Unicorn"
+
+					[[params.skills.items]]
+						title = "Ansible, Vagrant, Docker, Packer, fabric"
+
+					[[params.skills.items]]
+						title = "GCP(Mainly), AWS, IDCF Cloud"
+
+					[[params.skills.items]]
+						title = "Java, Scala, Apache Spark"
 
 	[params.contact]
 		title = "Contact"
