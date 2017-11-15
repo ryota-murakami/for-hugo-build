@@ -33,16 +33,16 @@ theme = "hugo-strata-theme"
 
 		content = "I'm live in Tokyo, Japan.<br>I especially like React community.🌎"
 
-	[params.works]
+	[params.product]
 		title = "Product"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-		[[params.works.items]]
+		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/trueblue"
 			title = "True Blue"
 			description = "Archive tweets on every other day."
 
-		[[params.works.items]]
+		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/clock-up"
 			title = "Clock-up"
 			description = "Personnel time management application."
