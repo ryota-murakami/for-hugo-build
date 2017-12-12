@@ -47,15 +47,15 @@ theme = "hugo-strata-theme"
 
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
-				title = "Hatena Blog(日本語)"
+				title = "Hatena Blog"
+
+			[[params.blogs.items]]
+				url = "https://qiita.com/ryota-murakami"
+				title = "qiita"
 
 			[[params.blogs.items]]
   				url = "http://malloc.tokyo/"
-  				title = "malloc.tokyo(日本語)"
-
-			[[params.blogs.items]]
-				url = "https://medium.com/@malloc007"
-				title = "Medium"
+  				title = "malloc.tokyo"
 
 	[params.sns]
 		title = "SNS"
@@ -66,9 +66,6 @@ theme = "hugo-strata-theme"
 			[[params.sns.items]]
 				url = "https://www.instagram.com/ryota_murakam1/"
 				title = "Instagram"
-			[[params.sns.items]]
-				url = "https://dev.to/ryotamurakami"
-				title = "dev.to"
 			[[params.sns.items]]
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
