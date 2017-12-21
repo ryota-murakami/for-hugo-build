@@ -46,6 +46,10 @@ theme = "hugo-strata-theme"
 		title = "Blog"
 
 			[[params.blogs.items]]
+				url = "https://medium.com/@malloc007"
+				title = "Medium"
+
+			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
 
