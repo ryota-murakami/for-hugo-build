@@ -68,7 +68,7 @@ theme = "hugo-strata-theme"
 				url = "https://www.instagram.com/ryota_murakam1/"
 				title = "Instagram"
 
-			[[params.sns.facebook]]
+			[[params.sns.items]]
 				url = "https://www.facebook.com/ryota.murakami.100"
 				title = "Facebook"
 
