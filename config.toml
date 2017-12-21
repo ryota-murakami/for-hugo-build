@@ -63,9 +63,11 @@ theme = "hugo-strata-theme"
 			[[params.sns.items]]
 				url = "https://twitter.com/malloc007"
 				title = "Twitter"
+
 			[[params.sns.items]]
 				url = "https://www.instagram.com/ryota_murakam1/"
 				title = "Instagram"
+
 			[[params.sns.items]]
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
