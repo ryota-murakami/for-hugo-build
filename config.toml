@@ -46,12 +46,16 @@ theme = "hugo-strata-theme"
 		title = "Blog"
 
 			[[params.blogs.items]]
-				url = "https://medium.com/@malloc007"
-				title = "Medium"
+				url = "https://dev.to/ryotamurakami"
+				title = "dev.to"
 
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
+
+			[[params.blogs.items]]
+				url = "https://qiita.com/ryota-murakami"
+				title = "qiita"
 
 	[params.sns]
 		title = "SNS"
@@ -71,14 +75,6 @@ theme = "hugo-strata-theme"
 			[[params.sns.items]]
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
-
-			[[params.sns.items]]
-				url = "https://dev.to/ryotamurakami"
-				title = "dev.to"
-
-			[[params.sns.items]]
-				url = "https://qiita.com/ryota-murakami"
-				title = "qiita"
 
 		[params.skills]
 				title = "skill set"
