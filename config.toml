@@ -31,7 +31,7 @@ theme = "hugo-strata-theme"
 	[params.about]
 		title = "A freelance Front End Developer."
 
-		content = "I'm live in Tokyo, Japan.<br>working as a freelancer for 2~3 days in per week, and developing my own products.<br>especially like React community.🌎"
+		content = "I'm live in Tokyo, Japan.<br>working as a freelancer for 2~3 days in per week, and developing my own products.<br>especially like React community.🌎<br><br><a href=\"https://malloc.tokyo\" target=\"_blank\">It's my diary</a>"
 
 	[params.product]
 		title = "Product"
@@ -52,10 +52,6 @@ theme = "hugo-strata-theme"
 			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
-
-			[[params.blogs.items]]
-  				url = "http://malloc.tokyo/"
-  				title = "malloc.tokyo"
 
 	[params.sns]
 		title = "SNS"
