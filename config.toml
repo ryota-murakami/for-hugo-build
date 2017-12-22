@@ -50,12 +50,12 @@ theme = "hugo-strata-theme"
 				title = "dev.to"
 
 			[[params.blogs.items]]
-				url = "http://malloc.hatenablog.jp/"
-				title = "Hatena Blog"
+				url = "https://qiita.com/ryota-murakami"
+				title = "Qiita"
 
 			[[params.blogs.items]]
-				url = "https://qiita.com/ryota-murakami"
-				title = "qiita"
+				url = "http://malloc.hatenablog.jp/"
+				title = "Hatena Blog"
 
 	[params.sns]
 		title = "SNS"
