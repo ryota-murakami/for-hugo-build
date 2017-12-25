@@ -92,7 +92,7 @@ theme = "hugo-strata-theme"
 						title = "Git, Github Workflow"
 
 					[[params.skills.items]]
-						title = "HTML5, CSS3, SASS, BootStrap"
+						title = "HTML5, CSS3, SASS, BootStrap, CSSinJS"
 
 					[[params.skills.items]]
 						title = "React, Redux, mobX, GraphQL, React Native"
