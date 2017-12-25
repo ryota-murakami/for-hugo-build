@@ -42,6 +42,11 @@ theme = "hugo-strata-theme"
 			title = "True Blue"
 			description = "Archive tweets on every other day."
 
+		[[params.product.items]]
+			url = "https://github.com/ryota-murakami/clock-up"
+			title = "Clock Up"
+			description = "Attendance management tool for personal use."
+
 	[params.blogs]
 		title = "Blog"
 
