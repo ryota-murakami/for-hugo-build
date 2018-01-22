@@ -27,11 +27,10 @@ theme = "hugo-strata-theme"
 			"Images: [Unsplash](//unsplash.com/)"
 		]
 
-
 	[params.about]
 		title = "Hardcore React Developer."
 
-		content = "I'm live in Tokyo, Japan. JavaScript, Flow, React, React Native.<br>who have been fascinated the JavaScript OSS community.🌎<br><br>I usually watch React issue/PR & discord community, and it's a my pleasure for as a programmers to contribute and grow through these communities."
+		content = "I live in Tokyo, Japan. JavaScript, Flow, React, React Native.<br>I've been fascinated with JavaScript OSS community.🌎<br><br>I usually watch React issue/PR & discord community and it's my pleasure as a programmer to contribute and grow through these communities."
 
 	[params.product]
 		title = "Product"
