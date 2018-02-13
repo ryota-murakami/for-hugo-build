@@ -47,19 +47,27 @@ theme = "hugo-strata-theme"
 			description = "Attendance management tool for personal use."
 
 	[params.blogs]
-		title = "Blog"
+		title = "Posts"
 
 			[[params.blogs.items]]
 				url = "https://dev.to/ryotamurakami"
 				title = "dev.to"
 
 			[[params.blogs.items]]
-				url = "https://malloc.tokyo"
-				title = "malloc.tokyo"
-
-			[[params.blogs.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
+
+			[[params.blogs.items]]
+				url = "https://qiita.com/ryota-murakami"
+				title = "Qiita"
+
+			[[params.blogs.items]]
+				url = "https://speakerdeck.com/ryotamurakami/"
+				title = "Speaker Deck"
+
+			[[params.blogs.items]]
+				url = "https://malloc.tokyo"
+				title = "malloc.tokyo"
 
 	[params.sns]
 		title = "SNS"
