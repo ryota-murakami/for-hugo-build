@@ -30,7 +30,7 @@ theme = "hugo-strata-theme"
 	[params.about]
 		title = "Hardcore React Developer."
 
-		content = "I live in Tokyo, Japan. JavaScript, Flow, React, React Native.<br>I've been fascinated with JavaScript OSS community.🌎<br><br>I usually watch React discord community and it's my pleasure as a programmer to contribute and grow through these communities."
+		content = "I live in Tokyo, Japan. Redux Evangelist. JavaScript, Flow, React, React Native.<br>I've been fascinated with JavaScript OSS community.🌎<br><br>I usually watch React discord community and it's my pleasure as a programmer to contribute and grow through these communities."
 
 	[params.product]
 		title = "Product"
