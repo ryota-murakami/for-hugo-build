@@ -33,18 +33,24 @@ theme = "hugo-strata-theme"
 		content = "I live in Tokyo, Japan. Redux Evangelist. JavaScript, Flow, React, React Native.<br>I've been fascinated with JavaScript OSS community.🌎<br><br>I usually watch React discord community and it's my pleasure as a programmer to contribute and grow through these communities."
 
 	[params.product]
-		title = "Product"
+		title = "Repository"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
+
 		[[params.product.items]]
-			url = "https://github.com/ryota-murakami/trueblue"
-			title = "True Blue"
-			description = "Archive tweets on every other day."
+			url = "https://github.com/ryota-murakami/redux-vanilla"
+			title = "Redux Vanilla"
+			description = "Zero Abstraction React Redux binding library"
+
+		[[params.product.items]]
+			url = "https://github.com/ryota-murakami/redux-no-middleware-pattarn"
+			title = "Redux No Middleware Pattarn"
+			description = "use Flux Architecture primitively. without overkill ActionCreator & Middleware combination."
 
 		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/clock-up"
 			title = "Clock Up"
-			description = "Attendance management tool for personal use."
+			description = "⏰ React Web App: parsonal attendance management"
 
 	[params.blogs]
 		title = "Posts"
