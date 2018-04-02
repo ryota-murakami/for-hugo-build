@@ -40,12 +40,12 @@ theme = "hugo-strata-theme"
 		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/redux-vanilla"
 			title = "Redux Vanilla"
-			description = "Zero Abstraction React Redux binding library"
+			description = "🍨Zero Abstraction React Redux binding library"
 
 		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/redux-no-middleware-pattarn"
 			title = "Redux No Middleware Pattarn"
-			description = "use Flux Architecture primitively. without overkill ActionCreator & Middleware combination."
+			description = "🍷 write async logic without middleware in redux"
 
 		[[params.product.items]]
 			url = "https://github.com/ryota-murakami/clock-up"
