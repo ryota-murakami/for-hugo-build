@@ -1,8 +1,8 @@
-{{ "<!-- blogs -->" | safeHTML }}
+{{ "<!-- posts -->" | safeHTML }}
 <section>
-	{{ with .Site.Params.blogs.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+	{{ with .Site.Params.posts.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row">
-		{{ range .Site.Params.blogs.items }}
+		{{ range .Site.Params.posts.items }}
 		<article class="10u$">
 			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
 		</article>

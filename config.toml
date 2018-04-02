@@ -30,48 +30,48 @@ theme = "hugo-strata-theme"
 	[params.about]
 		title = "Hardcore React Developer."
 
-		content = "I live in Tokyo, Japan. Redux Evangelist. JavaScript, Flow, React, React Native.<br>I've been fascinated with JavaScript OSS community.🌎<br><br>I usually watch React discord community and it's my pleasure as a programmer to contribute and grow through these communities."
+		content = "I live in Tokyo, Japan. Flux. JavaScript, Flow, React, React Native.<br>I’ve been fascinated to JavaScript OSS community.🌎"
 
-	[params.product]
+	[params.repository]
 		title = "Repository"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 
-		[[params.product.items]]
+		[[params.repository.items]]
 			url = "https://github.com/ryota-murakami/redux-vanilla"
 			title = "Redux Vanilla"
 			description = "🍨Zero Abstraction React Redux binding library"
 
-		[[params.product.items]]
+		[[params.repository.items]]
 			url = "https://github.com/ryota-murakami/redux-no-middleware-pattarn"
 			title = "Redux No Middleware Pattarn"
 			description = "🍷 write async logic without middleware in redux"
 
-		[[params.product.items]]
+		[[params.repository.items]]
 			url = "https://github.com/ryota-murakami/clock-up"
 			title = "Clock Up"
 			description = "⏰ React Web App: parsonal attendance management"
 
-	[params.blogs]
+	[params.posts]
 		title = "Posts"
 
-			[[params.blogs.items]]
+			[[params.posts.items]]
 				url = "https://dev.to/ryotamurakami"
 				title = "dev.to"
 
-			[[params.blogs.items]]
+			[[params.posts.items]]
 				url = "https://qiita.com/ryota-murakami"
 				title = "qiita"
 
-			[[params.blogs.items]]
+			[[params.posts.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog"
 
-			[[params.blogs.items]]
+			[[params.posts.items]]
 				url = "https://speakerdeck.com/ryotamurakami/"
 				title = "Speaker Deck"
 
-			[[params.blogs.items]]
+			[[params.posts.items]]
 				url = "https://malloc.tokyo"
 				title = "malloc.tokyo"
 
@@ -113,7 +113,7 @@ theme = "hugo-strata-theme"
 						title = "HTML5, CSS3, SASS, BootStrap, CSSinJS"
 
 					[[params.skills.items]]
-						title = "React, Redux, mobX, GraphQL, React Native"
+						title = "React, Redux, mobX, GraphQL, React Native, Firebase, GraphCool"
 
 					[[params.skills.items]]
 						title = "JavaScript, jQuery, Angular1, Webpack, gulp"
@@ -142,7 +142,8 @@ theme = "hugo-strata-theme"
 					[[params.skills.items]]
 						title = "MySQL, PostgreSQL"
 
-					[[params.skills.items]] title = "Nginx, PHP-FPM, Apache, Unicorn"
+					[[params.skills.items]]
+					title = "Nginx, PHP-FPM, Apache, Unicorn"
 
 					[[params.skills.items]]
 						title = "Ansible, Vagrant, Docker, Packer, fabric"

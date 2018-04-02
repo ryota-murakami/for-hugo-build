@@ -1,8 +1,8 @@
 {{ "<!-- works -->" | safeHTML }}
 <section>
-	{{ with .Site.Params.product.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+	{{ with .Site.Params.repository.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row works-row">
-		{{ range .Site.Params.product.items }}
+		{{ range .Site.Params.repository.items }}
 		<article class="10u$ work-item">
 			<h2 style="margin-bottom: 0.4em;"><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
 			<p style="font-size: 1.1em;color: #787878;">{{ .description | markdownify }}</p>
