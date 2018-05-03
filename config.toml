@@ -73,7 +73,7 @@ theme = "hugo-strata-theme"
 
 			[[params.posts.items]]
 				url = "https://malloc.tokyo"
-				title = "malloc.tokyo"
+				title = "malloc.tokyo(日本語のブログです(^_^)/"
 
 	[params.sns]
 		title = "SNS"
