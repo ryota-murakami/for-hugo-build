@@ -28,7 +28,7 @@ theme = "hugo-strata-theme"
 		]
 
 	[params.about]
-		title = "Hardcore React Developer."
+		title = "React Developer."
 
 		content = "I live in Tokyo, Japan. Flux. JavaScript, Flow, React, React Native.<br>I’ve been fascinated to JavaScript OSS community.🌎"
 
