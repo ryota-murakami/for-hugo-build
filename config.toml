@@ -53,7 +53,7 @@ theme = "hugo-strata-theme"
 			description = "⏰ React Web App: parsonal attendance management"
 
 	[params.posts]
-		title = "Posts"
+		title = "Post"
 
 			[[params.posts.items]]
 				url = "https://dev.to/ryotamurakami"
