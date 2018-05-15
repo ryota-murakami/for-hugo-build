@@ -6,9 +6,9 @@ theme = "hugo-strata-theme"
 [params]
 	# To provide some metadata for search engines feel free to add a few
 	# information about you and your website.
-	page = "portfolio"
+	page = "Mypage"
 	name = "Ryota.Murakami"
-	description = "Portfolio"
+	description = "Mypage"
 
 	[params.sidebar]
 		# Replace the avatar with a picture of your own under static/images
