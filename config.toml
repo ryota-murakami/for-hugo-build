@@ -43,9 +43,9 @@ theme = "hugo-strata-theme"
 			description = "🍨Zero Abstraction React Redux binding library"
 
 		[[params.repository.items]]
-			url = "https://github.com/ryota-murakami/redux-zero-middleware"
-			title = "Redux Zero Middleware"
-			description = "🍷 pattarn of write logic without middleware in redux"
+			url = "https://github.com/ryota-murakami/redux-less-boilerplate"
+			title = "Redux Less Boilerplate"
+			description = "🍷 write redux application from less boilerplate."
 
 		[[params.repository.items]]
 			url = "https://github.com/ryota-murakami/clock-up"
