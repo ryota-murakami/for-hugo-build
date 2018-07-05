@@ -33,8 +33,8 @@ theme = "hugo-strata-theme"
 		# Create and change subfolders as you like
 
 		[[params.repository.items]]
-			url = "https://github.com/ryota-murakami/redux-boilerplate-less-archetype"
-			title = "Redux Boilerplate Less Archetype"
+			url = "https://github.com/ryota-murakami/redux-boilerplate-less-architecture"
+			title = "Redux Boilerplate Less Architecture"
 			description = "🍷 Write redux application from boilerplate less code example."
 
 		[[params.repository.items]]
