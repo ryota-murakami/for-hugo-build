@@ -89,6 +89,10 @@ theme = "hugo-strata-theme"
 				url = "https://github.com/ryota-murakami"
 				title = "GitHub"
 
+			[[params.sns.items]]
+				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
+				title = "LinkedIn"
+
 		[params.skills]
 				title = "skill set"
 
