@@ -66,10 +66,6 @@ theme = "hugo-strata-theme"
 				url = "https://speakerdeck.com/ryotamurakami/"
 				title = "Speaker Deck"
 
-			[[params.posts.items]]
-				url = "https://malloc.tokyo"
-				title = "malloc.tokyo(日本語のブログです(^_^)/"
-
 	[params.sns]
 		title = "SNS"
 
