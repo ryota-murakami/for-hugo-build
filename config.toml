@@ -27,6 +27,33 @@ theme = "hugo-strata-theme"
 			"Images: [Unsplash](//unsplash.com/)"
 		]
 
+	[params.sns]
+		title = "SNS"
+
+			[[params.sns.items]]
+				url = "https://twitter.com/malloc007"
+				title = "Twitter"
+
+			[[params.sns.items]]
+				url = "https://www.instagram.com/ryota_murakam1/"
+				title = "Instagram"
+
+			[[params.sns.items]]
+				url = "https://www.facebook.com/ryota.murakami.100"
+				title = "Facebook"
+
+			[[params.sns.items]]
+				url = "https://github.com/ryota-murakami"
+				title = "GitHub"
+
+			[[params.sns.items]]
+				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
+				title = "LinkedIn"
+
+			[[params.sns.items]]
+				url = "https://malloc.tokyo/"
+				title = "ここがほむほーむヾ(*・ω・)ノ"
+
 	[params.repository]
 		title = "Repository"
 		# The images and thumbnails are stored under static/images
@@ -65,89 +92,6 @@ theme = "hugo-strata-theme"
 			[[params.posts.items]]
 				url = "https://speakerdeck.com/ryotamurakami/"
 				title = "Speaker Deck"
-
-	[params.sns]
-		title = "SNS"
-
-			[[params.sns.items]]
-				url = "https://twitter.com/malloc007"
-				title = "Twitter"
-
-			[[params.sns.items]]
-				url = "https://www.instagram.com/ryota_murakam1/"
-				title = "Instagram"
-
-			[[params.sns.items]]
-				url = "https://www.facebook.com/ryota.murakami.100"
-				title = "Facebook"
-
-			[[params.sns.items]]
-				url = "https://github.com/ryota-murakami"
-				title = "GitHub"
-
-			[[params.sns.items]]
-				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
-				title = "LinkedIn"
-
-		[params.skills]
-				title = "skill set"
-
-					[[params.skills.items]]
-						title = "Software Test Knowledge. in order to verification App is not Broken. “Never”"
-
-					[[params.skills.items]]
-						title = "Software Architecture. Gof Design Patterns, Martin Fowler P of EAA: Service Layer etc.."
-
-					[[params.skills.items]]
-						title = "TCP/IP, Basics Computer Science knowledges"
-
-					[[params.skills.items]]
-						title = "Git, Github Workflow"
-
-					[[params.skills.items]]
-						title = "HTML5, CSS3, SASS, BootStrap, CSSinJS"
-
-					[[params.skills.items]]
-						title = "React, Redux, mobX, GraphQL, React Native, Firebase, GraphCool"
-
-					[[params.skills.items]]
-						title = "JavaScript, jQuery, Angular1, Webpack, gulp"
-
-					[[params.skills.items]]
-						title = "ServiceWorker, Canvas, Payment Request API, Apple Pay Safari"
-
-					[[params.skills.items]]
-						title = "PHP(Wordpress, Symfony, Laravel, Silex, Lumen, FuelPHP)"
-
-					[[params.skills.items]]
-						title = "Node.js, Express"
-
-					[[params.skills.items]]
-					 	title = "Ruby on Rails, Pure Ruby"
-
-					[[params.skills.items]]
-					 	title = "Shell script, fish shell"
-
-					[[params.skills.items]]
-						title = "Debian Ubuntu, Red Hat/CentOS"
-
-					[[params.skills.items]]
-						title = "Let's Encrypt, onamae.com"
-
-					[[params.skills.items]]
-						title = "MySQL, PostgreSQL"
-
-					[[params.skills.items]]
-					title = "Nginx, PHP-FPM, Apache, Unicorn"
-
-					[[params.skills.items]]
-						title = "Ansible, Vagrant, Docker, Packer, fabric"
-
-					[[params.skills.items]]
-						title = "GCP(Mainly), AWS, IDCF Cloud"
-
-					[[params.skills.items]]
-						title = "Java, Scala, Apache Spark"
 
 	[params.contact]
 		title = "Contact"

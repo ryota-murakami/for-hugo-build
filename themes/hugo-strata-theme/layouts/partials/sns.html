@@ -1,5 +1,14 @@
 {{ "<!-- activity -->" | safeHTML }}
-<section>
+<style>
+	.sns-section h1 {
+		margin-bottom: 15px;
+	}
+
+	.sns-section h2 {
+		margin-bottom: 12px;
+	}
+</style>
+<section class="sns-section">
 	{{ with .Site.Params.sns.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row">
 		{{ range .Site.Params.sns.items }}
