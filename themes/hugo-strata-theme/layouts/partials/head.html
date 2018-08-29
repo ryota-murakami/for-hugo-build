@@ -14,8 +14,8 @@
 		<meta http-equiv="content-language" content="{{ with .Site.LanguageCode }}{{ . }}{{ end }}" />
 		{{ .Hugo.Generator }}
 		<!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="apple-touch-icon" href="/icon.png"/>
-		<link rel="shortcut icon" type="image/png" href="/icon.png"/>
+		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}/images/icon.png"/>
+		<link rel="shortcut icon" type="image/png" href="{{ .Site.BaseURL }}/images/icon.png"/>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ .Site.BaseURL }}/css/ie8.css" /><![endif]-->
