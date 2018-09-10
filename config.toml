@@ -50,10 +50,6 @@ theme = "hugo-strata-theme"
 				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
 				title = "LinkedIn"
 
-			[[params.sns.items]]
-				url = "https://malloc.tokyo/"
-				title = "ここがほむほーむヾ(*・ω・)ノ"
-
 	[params.repository]
 		title = "Repository"
 		# The images and thumbnails are stored under static/images
