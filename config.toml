@@ -1,4 +1,4 @@
-baseurl = "http://ryota-murakami.github.io/"
+baseurl = "./"
 languageCode = "ja"
 title = "Ryota Murakami"
 theme = "hugo-strata-theme"
