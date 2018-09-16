@@ -6,7 +6,6 @@ theme = "hugo-strata-theme"
 [params]
 	# To provide some metadata for search engines feel free to add a few
 	# information about you and your website.
-	page = "Profile"
 	name = "Ryota.Murakami"
 	description = "Profile"
 
