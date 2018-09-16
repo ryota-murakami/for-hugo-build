@@ -50,42 +50,31 @@ theme = "hugo-strata-theme"
 				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
 				title = "LinkedIn"
 
-	[params.repository]
-		title = "Repository"
+	[params.library]
+		title = "Library"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-
-		[[params.repository.items]]
-			url = "https://github.com/ryota-murakami/redux-boilerplate-less-architecture"
-			title = "Redux Boilerplate Less Architecture"
-			description = "🍷 Write redux application from boilerplate less code example."
-
-		[[params.repository.items]]
-			url = "https://github.com/ryota-murakami/clock-up"
-			title = "Clock Up"
-			description = "⏰ React Web App: parsonal attendance management. This is real example of React/GraphQL stack."
-
-		[[params.repository.items]]
+		[[params.library.items]]
 			url = "https://github.com/ryota-murakami/redux-vanilla"
 			title = "Redux Vanilla"
 			description = "🍨 Hobby liblary learn to react/redux binding. That is passing raw redux store to React component."
 
-	[params.posts]
-		title = "Posts"
+	[params.article]
+		title = "Article"
 
-			[[params.posts.items]]
+			[[params.article.items]]
 				url = "https://dev.to/ryotamurakami"
 				title = "dev.to"
 
-			[[params.posts.items]]
+			[[params.article.items]]
 				url = "https://qiita.com/ryota-murakami"
 				title = "qiita(日本語)"
 
-			[[params.posts.items]]
+			[[params.article.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog(日本語)"
 
-			[[params.posts.items]]
+			[[params.article.items]]
 				url = "https://speakerdeck.com/ryotamurakami/"
 				title = "Speaker Deck"
 
