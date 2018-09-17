@@ -58,6 +58,11 @@ theme = "hugo-strata-theme"
 			title = "Redux Vanilla"
 			description = "🍨 Hobby liblary learn to react/redux binding. That is passing raw redux store to React component."
 
+		[[params.library.items]]
+			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
+			title = "Twitter Bearer Token Getter"
+			description = "CLI tool of twitter API Bearer Token."
+
 	[params.article]
 		title = "Article"
 
