@@ -1,15 +1,38 @@
 {{ "<!-- article -->" | safeHTML }}
 <style>
-	.article-section h1 { margin-bottom: 15px; }
-	.article-section h2 { margin-bottom: 15px; }
+	.article-section h1 {
+		margin-bottom: 15px;
+	}
+
+
+	.article-section .row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.article-section_item {
+		flex: 0 1 auto;
+		padding-bottom: 10px;
+	}
+
+	.article-section_item:last-child {
+		padding-bottom: 0;
+	}
+
+	.article-section a {
+		border: none;
+		color: #333;
+		font-size: 24px;
+		line-height: 24px;
+	}
 </style>
 <section class="article-section">
 	{{ with .Site.Params.article.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
 	<div class="row">
 		{{ range .Site.Params.article.items }}
-		<article class="10u$">
-			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
-		</article>
+		<div class="article-section_item">
+			<a target="_blank" href="{{ .url }}">{{ .title }}</a>
+		</div>
 		{{ end }}
 	</div>
 </section>

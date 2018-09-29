@@ -4,22 +4,44 @@
 		margin-bottom: 20px;
 	}
 
-	.library-section article {
-		margin-bottom: 15px;
-	}
-
 	.library-section .library-section_desc {
 		line-height: 1.3em;
+	}
+
+	.library-section_item {
+		display: flex;
+		align-items: center;
+		padding-bottom: 20px;
+	}
+
+	.library-section_item:last-child {
+		padding-bottom: 0;
+	}
+
+	.library-section_item a {
+		border: none;
+		color: #333;
+		font-size: 24px;
+		line-height: 24px;
+		padding-right: 30px;
+		flex: 1 0 auto;
+	}
+
+	.library-section_desc {
+		flex: 1 0 auto;
+		font-size: 1.1em;
+		color: #787878;
+		line-height: 24px;
 	}
 </style>
 <section class="library-section">
 	{{ with .Site.Params.library.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
-	<div class="row works-row">
+	<div class="row">
 		{{ range .Site.Params.library.items }}
-		<article class="10u$ work-item">
-			<h2 style="margin-bottom: 0.4em;"><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
-			<p class="library-section_desc" style="font-size: 1.1em;color: #787878;">{{ .description | markdownify }}</p>
-		</article>
+		<div class="library-section_item">
+			<a target="_blank" href="{{ .url }}">{{ .title }}</a>
+			<div class="library-section_desc">{{ .description | markdownify }}</div>
+		</div>
 		{{ end }}
 	</div>
 </section>

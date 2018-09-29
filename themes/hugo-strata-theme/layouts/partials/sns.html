@@ -7,14 +7,24 @@
 	.sns-section h2 {
 		margin-bottom: 12px;
 	}
+
+	.sns-section_container {
+		display: flex;
+	}
+
+	.sns-section_container a {
+		border: none;
+		color: #333;
+		font-size: 24px;
+		line-height: 24px;
+		flex: 0.06 1 auto;
+	}
 </style>
 <section class="sns-section">
 	{{ with .Site.Params.sns.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
-	<div class="row">
+	<div class="sns-section_container">
 		{{ range .Site.Params.sns.items }}
-		<article class="10u$">
-			<h2><a target="_blank" href="{{ .url }}">{{ .title }}</a></h2>
-		</article>
+		<a target="_blank" href="{{ .url }}">{{ .title }}</a>
 		{{ end }}
 	</div>
 </section>
