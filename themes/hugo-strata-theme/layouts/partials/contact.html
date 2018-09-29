@@ -37,7 +37,7 @@
 				{{ if isset .Site.Params.contact "email" }}
 				<li>
 					<h3 class="icon fa-envelope-o"><span class="label"></span></h3>
-					<a style="color: #333;">{{ .Site.Params.contact.email }}</a>
+					<a class="contact-link" style="color: #333;" data-clipboard-action="copy" data-clipboard-text="{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
 				</li>
 				{{ end }}
 			</ul>

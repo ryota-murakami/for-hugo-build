@@ -21,3 +21,22 @@
 <script src="{{ .Site.BaseURL }}js/util.js"></script>
 <!--[if lte IE 8]><script src="{{ .Site.BaseURL }}js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+	var clipboard = new ClipboardJS('.contact-link');
+	clipboard.on('success', event => {
+		if (event.text) {
+			showTooltip(event.trigger, 'copied!');
+		}
+	});
+
+	function showTooltip(elem, msg) {
+		var classNames = elem.className;
+		elem.setAttribute('class', classNames + ' hint--right');
+		elem.setAttribute('aria-label', msg);
+		setTimeout(function () {
+			elem.setAttribute('class', classNames);
+		}, 2000);
+	}
+
+</script>
