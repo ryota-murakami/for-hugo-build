@@ -8,10 +8,15 @@
 		line-height: 1.3em;
 	}
 
-	.library-section_item {
+	.library-section .row {
 		display: flex;
-		align-items: center;
+		flex-direction: column;
 		padding-bottom: 20px;
+	}
+
+	.library-section_item {
+		flex: 1 0 auto;
+		padding-bottom: 10px;
 	}
 
 	.library-section_item:last-child {
@@ -23,16 +28,9 @@
 		color: #333;
 		font-size: 24px;
 		line-height: 24px;
-		padding-right: 30px;
 		flex: 1 0 auto;
 	}
 
-	.library-section_desc {
-		flex: 1 0 auto;
-		font-size: 1.1em;
-		color: #787878;
-		line-height: 24px;
-	}
 </style>
 <section class="library-section">
 	{{ with .Site.Params.library.title }}<h1>{{ . | markdownify }}</h1>{{ end }}
@@ -40,7 +38,6 @@
 		{{ range .Site.Params.library.items }}
 		<div class="library-section_item">
 			<a target="_blank" href="{{ .url }}">{{ .title }}</a>
-			<div class="library-section_desc">{{ .description | markdownify }}</div>
 		</div>
 		{{ end }}
 	</div>
