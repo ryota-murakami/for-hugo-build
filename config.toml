@@ -53,14 +53,17 @@ theme = "hugo-strata-theme"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.library.items]]
+			url = "https://github.com/ryota-murakami/flow-typedef"
+			title = "Flow Typedef"
+			description = "Hobby liblary for learn to how react-redux implements."
+
+		[[params.library.items]]
 			url = "https://github.com/ryota-murakami/redux-vanilla"
 			title = "Redux Vanilla"
-			description = "Hobby liblary for learn to how react-redux implements."
 
 		[[params.library.items]]
 			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
 			title = "Twitter Bearer Token Getter"
-			description = "CLI tool of twitter API Bearer Token."
 
 	[params.article]
 		title = "Article"
