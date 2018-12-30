@@ -69,7 +69,7 @@ theme = "hugo-strata-theme"
 		title = "Article"
 
 			[[params.article.items]]
-				url = "https://dev.to/ryotamurakami"
+				url = "https://dev.to/malloc007"
 				title = "dev.to"
 
 			[[params.article.items]]
@@ -79,10 +79,6 @@ theme = "hugo-strata-theme"
 			[[params.article.items]]
 				url = "http://malloc.hatenablog.jp/"
 				title = "Hatena Blog(日本語)"
-
-			[[params.article.items]]
-				url = "https://speakerdeck.com/ryotamurakami/"
-				title = "Speaker Deck"
 
 	[params.contact]
 		title = "Contact"
