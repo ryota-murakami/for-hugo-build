@@ -53,6 +53,11 @@ theme = "hugo-strata-theme"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.library.items]]
+			url = "https://github.com/ryota-murakami/muriaticf"
+			title = "muriatic"
+			description = "Global version of a setState() with React hooks"
+
+		[[params.library.items]]
 			url = "https://github.com/ryota-murakami/flow-typedef"
 			title = "Flow Typedef"
 			description = "Hobby liblary for learn to how react-redux implements."
