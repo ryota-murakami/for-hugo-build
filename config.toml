@@ -53,7 +53,7 @@ theme = "hugo-strata-theme"
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.library.items]]
-			url = "https://github.com/ryota-murakami/muriaticf"
+			url = "https://github.com/ryota-murakami/muriatic"
 			title = "muriatic"
 			description = "Global version of a setState() with React hooks"
 
