@@ -1,13 +1,19 @@
 {{ partial "head" . }}
-	<body id="top">
-		{{ partial "header" . }}
+<style>
+  h2 {
+    color: #333;
+  }
+</style>
+<body id="top">
+{{ partial "header" . }}
 
-		{{ "<!-- Main -->" | safeHTML }}
-		<div id="main">
-			{{ partial "about" . }}
-			{{ partial "contact" . }}
-		</div>
+{{ "<!-- Main --> " | safeHTML }}
+<div id="main">
+  {{ partial "about" . }}
+  {{ partial "main_oss_contributor.html" . }}
+  {{ partial "contact" . }}
+</div>
 
-		{{ partial "footer" . }}
-	</body>
+{{ partial "footer" . }}
+</body>
 </html>

@@ -25,66 +25,6 @@ theme = "hugo-strata-theme"
 			"Images: [Unsplash](//unsplash.com/)"
 		]
 
-	[params.sns]
-		title = "SNS"
-
-			[[params.sns.items]]
-				url = "https://twitter.com/malloc007"
-				title = "Twitter"
-
-			[[params.sns.items]]
-				url = "https://www.instagram.com/ryota_murakam1/"
-				title = "Instagram"
-
-			[[params.sns.items]]
-				url = "https://www.facebook.com/ryota.murakami.100"
-				title = "Facebook"
-
-			[[params.sns.items]]
-				url = "https://github.com/ryota-murakami"
-				title = "GitHub"
-
-			[[params.sns.items]]
-				url = "https://www.linkedin.com/in/ryota-murakami-ba9206164/"
-				title = "LinkedIn"
-
-	[params.library]
-		title = "Library"
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.library.items]]
-			url = "https://github.com/ryota-murakami/muriatic"
-			title = "muriatic"
-			description = "Global version of a setState() with React hooks"
-
-		[[params.library.items]]
-			url = "https://github.com/ryota-murakami/flow-typedef"
-			title = "Flow Typedef"
-			description = "Hobby liblary for learn to how react-redux implements."
-
-		[[params.library.items]]
-			url = "https://github.com/ryota-murakami/redux-vanilla"
-			title = "Redux Vanilla"
-
-		[[params.library.items]]
-			url = "https://github.com/ryota-murakami/twitter-bearer-token-getter"
-			title = "Twitter Bearer Token Getter"
-
-	[params.article]
-		title = "Article"
-
-			[[params.article.items]]
-				url = "https://dev.to/malloc007"
-				title = "dev.to"
-
-			[[params.article.items]]
-				url = "https://qiita.com/ryota-murakami"
-				title = "qiita(日本語)"
-
-			[[params.article.items]]
-				url = "http://malloc.hatenablog.jp/"
-				title = "Hatena Blog(日本語)"
-
 	[params.contact]
 		title = "Contact"
 
