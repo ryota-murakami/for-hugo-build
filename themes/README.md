@@ -9,11 +9,11 @@ The Strata theme is a responsive and minimal one-page-portfolio based on the sel
 
 - [Installation](#installation)
 - [Getting started](#getting-started)
-	- [The config file](#the-config-file)
-	- [Sidebar](#sidebar)
-	- [Build up your portfolio](#build-up-your-portfolio)
-	- [Make the contact form working](#make-the-contact-form-working)
-	- [Nearly finished](#nearly-finished)
+  - [The config file](#the-config-file)
+  - [Sidebar](#sidebar)
+  - [Build up your portfolio](#build-up-your-portfolio)
+  - [Make the contact form working](#make-the-contact-form-working)
+  - [Nearly finished](#nearly-finished)
 - [Contributing](#contributing)
 - [License](#license)
 - [Annotations](#annotations)
@@ -23,9 +23,9 @@ The Strata theme is a responsive and minimal one-page-portfolio based on the sel
 
 Inside the folder of your Hugo site run:
 
-	$ mkdir themes
-	$ cd themes
-	$ git clone https://github.com/digitalcraftsman/hugo-strata-theme.git
+  $ mkdir themes
+  $ cd themes
+  $ git clone https://github.com/digitalcraftsman/hugo-strata-theme.git
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -45,7 +45,7 @@ The sidebar provides a small overview of who you are. One of the first elements 
 
 ```toml
 [params.sidebar]
-	avatar = "avatar.jpg"
+  avatar = "avatar.jpg"
 ```
 
 The path is relative to [`./static/images`](https://github.com/digitalcraftsman/hugo-strata-theme/tree/dev/static/images).
@@ -60,13 +60,13 @@ As photograph or freelancer, your most important piece in the resume is the work
 ```toml
 [params.portfolio]
 
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+    # The images and thumbnails are stored under static/images
+    # Create and change subfolders as you like
+    [[params.portfolio.gallery]]
+      image = "fulls/01.jpg"
+      thumb = "thumbs/01.jpg"
+      title = "Lorem ipsum dolor."
+      description = "Lorem ipsum dolor sit amet."
 ```
 
 ### Make the contact form working
@@ -84,13 +84,13 @@ Since this page will be static, you can use [formspree.io](//formspree.io/) as p
 
 In order to see your site in action, run Hugo's built-in local server.
 
-	$ hugo server -w
+  $ hugo server -w
 
 Now enter [`localhost:1313`](//localhost:1313) in the address bar of your browser.
 
 To be able to access your site from anywhere, use the following:
 
-	$ hugo server -w --bind=[Your IP] --port=80 --baseURL=https://example.com --appendPort=false
+  $ hugo server -w --bind=[Your IP] --port=80 --baseURL=https://example.com --appendPort=false
 
 
 ## Contributing
